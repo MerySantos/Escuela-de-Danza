@@ -8,22 +8,72 @@
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/clases.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
-	<header class="row menu"> <!-- MEnu -->
+	<header class="row menu container text-center"> <!-- YA MEnu -->
 	<!-- Escuela de danza(H3) +ul (class=text-gray) ... No olvidar que existe una clase de  no-decoration -->
+		<h3 class=" col-12 text-blue a-none-decoration">ESCUELA DE DANZA</h3>
+		<ul class=" col-12 text-gray li a-none-decoration">
+			<li>Nosotros</li> <li>Clases</li> 
+			<li>Blog</li>  <li>Contáctanos</li>
+		</ul>
 	</header>
 
-	<section class="bg-color-gris"><!-- oferta de clases -->
+	<section class="bg-color-gris"><!-- YA oferta de clases -->
 		<div class="container">
-			<h3></h3>
+			<h3>OFERTAS DE CLASES</h3>
 			<ul >
 				<li>  
 				<!-- img-fondo + div(position absoluta)( class="text-center" H4 + p) -->
+					<img src="img/dance_12.jpg">
+					<div class="text-center ">
+						<h4>BALLET</h4>
+						<p>El ballet es la base de casi todos los estilos de baile.</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/breakdance.jpg">
+					<div class="text-center ">
+						<h4>DANCE MODERM</h4>
+						<p>se incluyen todos aquellos bailes no estandarizados como bailes obligatorios y que siguen tendencias actuales de la moda.</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/lirical-jazz.jpg">
+					<div class="text-center ">
+						<h4>JAZZ LIRIC</h4>
+						<p>El Lyrical Jazz desafía a coreógrafos y bailarines a utilizar el movimiento para interpretar la música y la emoción expresa.</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/arabe.jpg">
+					<div class="text-center ">
+						<h4>ARABIC DANCE</h4>
+						<p>Es una danza muy variada y combina movimiento, gestos, cantos, música y costumbre. </p>
+					</div>
+				</li>
+				<li>
+					<img src="img/little.jpg">
+					<div class="text-center ">
+						<h4>KIDS LESSONS</h4>
+						<p>No solo son una actividad sensacional para los que la practican, sino que también traen muchos beneficios para ellos, sobre todo mentales y espirituales </p>
+					</div>
+				</li>
+				<li>
+					<img src="img/yoga.jpg">
+					<div class="text-center ">
+						<h4>YOGA DANCE</h4>
+						<p>Los beneficios del yoga, combinados con mùsica y ritmo.</p>
+					</div>
 				</li>
 			</ul>
 		</div>
+		<section class="row text-center"> <!-- YA lema -->
+		<!-- row con bg-imagen -->
+			<p class="text-blue"> <!-- subir font-size  y darle margin o padding-->"Baila como si nadie mirase. Ama como si nunca fueses a ser dañado. Canta como si nadie escuchase. Vive como si el cielo estuviese en la tierra."</p>
+		</section>
 	</section>
 
 	<footer> <!-- contactanos + derechos reservados -->
@@ -31,16 +81,25 @@
 			<!-- imagen de fondo( zapatillas de ballet)(alineado a la derechaq) + color de fondo: blanco-->
 			<div class="container">
 				<div class="row"> 
-					<div class="col-7"> 
+					<div class="col-7 display-ib"> 
 					<!-- h1 (text-blue) + 3 imput (con imagenes y texto) + button ( Enviar con texto blanco) -->
-					</div>
+						<h1 class="text-blue ">Contáctanos</h1>
+						<input type="text"  placeholder="Nombre">
+						</input>
+						<input type="text" placeholder="Email"></input>
+						<input type="text" placeholder="Mensaje"></input>
+						<div class="enviar bg-blue text-white">Enviar</div>
+						</div>
 					<div class="col-5"> <!-- vacia --></div>
 				</div>
 			</div>
 		</div>
 
-		<p class="text-white "> </p> 
-			<!-- bg:azul y alineado a la izquierda o flotante left -->
+		<!--YAA bg:azul y alineado a la izquierda o flotante left -->
+		<p class="text-white bg-blue float-left col-12">
+		 ©Escuela de danza.Todos los derechos reservados
+		 </p> 
+			
 	</footer>
 </body>
 </html>
