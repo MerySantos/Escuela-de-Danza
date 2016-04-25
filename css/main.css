@@ -1,10 +1,30 @@
 /* Inserta tu codigo aqui */
-.li li{
-	display: inline;
-	margin: 25px;
+/*esto es el titulo*/
+.titulo{
+	font-size: 20px;
+	padding-top: 3%;
+	padding-bottom: 1%;
 }
+/*comienza el menu*/
+.menu{
+	margin: 10px;
+}
+.menu li{
+	display: inline;
+	padding:auto;
+}
+.menu a{
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 15px;
+}
+.menu a:hover{
+	font-size: 28px;
+	border: 2px solid #192951; 
+}
+/*foto principal*/
 /*index*/
-.row .imgprincipal{
+.imgprincipal{
 	position: relative;
 	background-image: url("../img/dance_1.jpg");
 	background-size: 1500px 550px;
