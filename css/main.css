@@ -1,1 +1,69 @@
 /* Inserta tu codigo aqui */
+.li li{
+	display: inline;
+	margin: 25px;
+}
+/*index*/
+.row .imgprincipal{
+	position: relative;
+	background-image: url("../img/dance_1.jpg");
+	background-size: 1500px 550px;
+	height: 400px;
+}
+.absoluto{
+	position: absolute;
+	top: 80px;
+	left: 110px;
+	width: 300px;
+}
+.bg-textura{
+    background-image: url("../img/textura_2.jpg");
+    height: 420px;
+}
+
+/*sirven*/
+.relative{
+	position:  relative;
+}
+
+.abso-p{
+	position: absolute;
+	float: right;
+
+}
+.bg-blue{
+	background-color: rgb(25, 41, 81);
+}
+.bg-contactanos{
+	background-image: url("../img/shoes_1.jpg") ;
+	height: 420px;
+}
+.input{
+	display: block;
+	border: 1px solid gray;
+}
+
+/*nosotros]*/
+
+.row.img-nosotros{
+	position: relative;
+	background-image: url("../img/dance_7.jpg") ;
+	background-size: 1500px 550px;
+	height: 400px;
+}
+.fondo-transparente{
+	background-color: rgba(0, 0, 0, .4);
+	width:500px;
+	height: 220px;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+}
+.bg-textura2{
+	background-image: url("../img/cubes.png") ;
+	height: 400px;
+}
+.frases{
+	font-size: 50px;
+	margin: 50px auto;
+}

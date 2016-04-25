@@ -66,3 +66,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.float-left{
+	float: left;
+}

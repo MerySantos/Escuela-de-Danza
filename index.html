@@ -9,7 +9,93 @@
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
-	<!-- Inserta tu código aqui -->
-</body>
+<body >
+	<!-- Inserta tu código aqui  -OK-->
+	<header class="row menu container text-center"> <!-- YA MEnu -->
+	<!-- Escuela de danza(H3) +ul (class=text-gray) ... No olvidar que existe una clase de  no-decoration -->
+		<h3 class=" col-12 text-blue a-none-decoration">ESCUELA DE DANZA</h3>
+		<ul class=" col-12 text-gray li a-none-decoration">
+			<li>Nosotros</li> <li>Clases</li> 
+			<li>Blog</li>  <li>Contáctanos</li>
+		</ul>
+	</header>	
+
+	<section class="row img"> <!--YA imagen principal -->
+	<!-- ... tener la row en position relative con background(img) y luego poner el texto( H1 +Parrafo + a(inscribete)) en absoluto -->
+		<div class="imgprincipal">			
+		</div>
+		<div class="intro absoluto text-gray">
+			<h1>Studio</h1>
+			<p >Juliart Studio´s es el lugar perfecto, donde tus pies encontraran mas de 20 estilos de baile unicos y 80 profesores para escoger.</p>
+			<p><a class="a-none-decoration text-gray bg-img-block" href="inscribete.html">Inscríbete</a></p>
+		</div>
+	</section>
+
+	<section class="row text-center bg-textura"> <!-- YA Oferta de Clases -->
+		<!-- p +img +button -->
+		<P>Julliart cuenta con una amplia trayectoria y reputación, brindando una formación de excelencia a cientos de amantes de la danza</P>
+		<img src="img/decoration_1.png" width="100px" height="60px">
+		<br>
+		<a href="clases.html">Oferta de Clases</a>
+	</section> 
+
+	<section class="row relative bg-blue"> <!-- YA Nuestros instructores --> 
+		<!-- No olvidar:Row en relative -->
+		<div class=" col-6 ">
+			<img src="img/instructor_4.jpg" width="100%" height="420">
+		</div>
+		<div class=" col-6">
+			<img src="img/profesor_9.jpg" width="100%" height="420">
+		</div>
+		<!-- p con bg-color y Darle position absolute y moverlo hacia el centro -->
+		<div class="bg-blue abso-p text-center"><p>Nuestros instructores</p></div>
+	</section>
+
+	<section class="row text-center"> <!-- YA lema -->
+		<!-- row con bg-imagen -->
+		<p class="text-blue"> <!-- subir font-size  y darle margin o padding-->"La danza es un poema en el que cada moviemiento es una palabra."</p>
+	</section>
+
+	<section class="row text-white bg-blue"> <!-- YA Visitanos -->
+		<div class="col-6"> <!-- DAtos visitano -->
+			<p>Dance Division de la Juilliard ha logrado una reputación en todo el mundo de la danza de la calidad superior de su educación y formación artística. Bajo la dirección artística de Lorenzo de Rodas , danza Juilliard tiene como objetivo crear verdaderos bailarines contemporáneos - entrenado por igual en el ballet clásico y danza moderna.</p>
+			<h4>Visítanos</h4>
+			<p>The Julliard Scohol<br>
+			60 Lincoln Center Plaza,<br>
+			New York, NY 10023
+			</p>
+		</div>
+		<div class="col-6"> <!-- YA  mapa -->
+			<!-- mapa no solo imagen  -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7650.737433060492!2d-71.37154421394723!3d-16.507472871187854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x003180bb8aff4462!2sPlaza+de+Piaca!5e0!3m2!1sen!2spe!4v1461552831253" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</section>
+
+	
+
+	<footer> <!-- contactanos + derechos reservados -->
+		<div class="bg-contactanos"> <!-- Contactanos -->
+			<!-- imagen de fondo( zapatillas de ballet)(alineado a la derechaq) + color de fondo: blanco-->
+			<div class="container">
+				<div class="row"> 
+					<div class="col-7 display-ib"> 
+					<!-- h1 (text-blue) + 3 imput (con imagenes y texto) + button ( Enviar con texto blanco) -->
+					<h1 class="text-blue ">Contáctanos</h1>
+					<input type="text"  placeholder="Nombre">
+					</input>
+					<input type="text" placeholder="Email"></input>
+					<input type="text" placeholder="Mensaje"></input>
+					<div class="enviar bg-blue text-white">Enviar</div>
+					</div>
+					<div class="col-5"> <!-- vacia --></div>
+				</div>
+			</div>
+		</div>
+		<!--YAA bg:azul y alineado a la izquierda o flotante left -->
+		<p class="text-white bg-blue float-left col-12">
+		 ©Escuela de danza.Todos los derechos reservados
+		 </p> 
+			
+	</footer>
+	</body>
 </html>
