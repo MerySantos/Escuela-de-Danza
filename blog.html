@@ -9,35 +9,37 @@
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
-	<header class="row menu container text-center"> <!-- YA MEnu -->
+<header class="text-center"> <!-- YA MEnu -->
 	<!-- Escuela de danza(H3) +ul (class=text-gray) ... No olvidar que existe una clase de  no-decoration -->
-		<h3 class=" col-12 text-blue a-none-decoration">ESCUELA DE DANZA</h3>
-		<ul class=" col-12 text-gray li a-none-decoration">
-			<li>Nosotros</li> <li>Clases</li> 
-			<li>Blog</li>  <li>Contáctanos</li>
+	<H1 class="text-blue titulo">ESCUELA DE DANZA </h1>
+		<ul class="text-gray a-none-decoration menu">
+			<li><a href="">Nosotros</a></li>
+			<li><a href="">Clases</a></li> 
+			<li><a href="">Blog</a></li> 
+			<li><a href="">Contáctanos</a></li>
 		</ul>
-	</header>
-
-	<section> <!-- blog -->
+</header>
+<section> <!-- blog -->
 		<!-- bg-color -->
-		<h1 class="text-center">BLOG	</h1>
-
+	<div class="bg-gray">
+		<h3 class="text-center pt-5 pb-5">BLOG</h3>
 		<div class="container">
-			<div class="row"> <!-- 1era fila -->
-				<div class="col-3">
+			<div class="row bg-plomo"> <!-- 1era fila -->
+				<div class="col-3 pd-0">
 					<img src="img/blog1.jpg">
 				</div>
 				<div class="col-9">
 					<h4>NY BALLET: SUEÑO Una noche de verano</h4>
+					<h5>Fecha</h5>
 					<p>Nuestros estudiantes de ultimo ciclo estan participando junto al ballet de NY este sabado 30 de abril.</p>
-					 <button>Ver màs</button>
+					<button>Ver màs</button>
 				</div>
 			</div>
-			<div class="row"><!-- 2era fila -->
-				<div class="col-3">
+			<div class="row bg-plomo"><!-- 2era fila -->
+				<div class="col-3 pd-0">
 					<img src="img/profesor_5.jpg">
 				</div>
 				<div class="col-9">
@@ -47,8 +49,8 @@
 					 <button>Ver màs</button>
 				</div>
 			</div>
-			<div class="row"><!-- 3era fila -->
-				<div class="col-3">
+			<div class="row bg-plomo"><!-- 3era fila -->
+				<div class="col-3 pd-0">
 					<img src="img/instructor_1.jpg">
 				</div>
 				<div class="col-9">
@@ -58,23 +60,34 @@
 				</div>
 			</div>
 		</div>
-	</section>
-
-	<footer> <!-- contactanos + derechos reservados -->
+	</div>	
+</section>
+<footer> <!-- contactanos + derechos reservados -->
 		<div class="bg-contactanos"> <!-- Contactanos -->
 			<!-- imagen de fondo( zapatillas de ballet)(alineado a la derechaq) + color de fondo: blanco-->
 			<div class="container">
 				<div class="row"> 
-					<div class="col-7 display-ib"> 
+					<div class="col-6 display-ib"> 
 					<!-- h1 (text-blue) + 3 imput (con imagenes y texto) + button ( Enviar con texto blanco) -->
 						<h1 class="text-blue ">Contáctanos</h1>
-						<input type="text"  placeholder="Nombre">
-						</input>
-						<input type="text" placeholder="Email"></input>
-						<input type="text" placeholder="Mensaje"></input>
-						<div class="enviar bg-blue text-white">Enviar</div>
+						<form>
+							<p>
+								<label> <i class="fa fa-user" aria-hidden="true"></i> </label>
+								<input type="text"placeholder="Nombre"></input>
+							</p>
+							<p>
+								<label> <i class="fa fa-envelope" aria-hidden="true"></i> </label>
+								<input type="text"placeholder="Email"></input>
+							</p>
+							<p>
+								<label class="abso-p"> <i class="fa fa-pencil" aria-hidden="true"></i> </label> &nbsp &nbsp &nbsp &nbsp
+								<textarea placeholder="Mensaje" rows="10" cols="40"></textarea>
+							</p>
+						</form>
+					
+						<button class="enviar bg-blue text-white"><h3>ENVIAR</h3></button>
 						</div>
-					<div class="col-5"> <!-- vacia --></div>
+					<div class="col-6"> <!-- vacia --></div>
 				</div>
 			</div>
 		</div>
