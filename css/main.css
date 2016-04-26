@@ -50,35 +50,6 @@
 	display: block;
 	border: 1px solid gray;
 }
-
-/*nosotros]*/
-
-.row.img-nosotros{
-	position: relative;
-	background-image: url("../img/dance_7.jpg") ;
-	background-size: 1500px 550px;
-	height: 400px;
-}
-.fondo-transparente{
-	background-color: rgba(0, 0, 0, .4);
-	width:500px;
-	height: 220px;
-	position: absolute;
-	top: 100px;
-	left: 500px;
-}
-.bg-textura2{
-	background-image: url("../img/cubes.png") ;
-	height: 400px;
-}
-.frases{
-	font-size: 50px;
-	margin: 50px auto;
-}
-.texto-grande{ font-size: 70px; }
-.absoluto p{ margin: 15px 15px 20px auto;font-size: 15px; }
-.absoluto a{ padding: 8px 30px; background: #020E1E; }
-
 /*Oferta de clases*/
 .clases p{font-size: 25px; margin: 70px 23% auto;}
 .clases button{ padding: 20px 9%; font-size: 18px;background: #1A2952;border-radius: 10px;}

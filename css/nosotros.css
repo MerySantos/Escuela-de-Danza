@@ -1,1 +1,60 @@
 /* Inserta tu codigo aqui */
+*{outline: 1px solid rgba(255,0,0,0.4);}
+/*inicio foto central*/
+.img-nosotros{
+	position: relative;
+	background-image: url("../img/dance_7.jpg") ;
+	background-size: 150%;	
+	background-position: -2% 39%;
+	height: 400px;
+}
+.fondo-transparente{
+	background-color: rgba(0, 0, 0, .4);
+	width:550px;
+	height: 220px;
+	position: absolute;
+	top: 100px;
+	left: 650px;
+	padding: 25px;
+
+}
+.fondo-transparente p{
+	width: 480px;
+	height: 140px;
+	position: relative;
+	padding: 15px;
+}
+/*fin foto central*/
+/*pilares inicios*/
+.bg-textura2{
+	background-image: url("../img/cubes.png") ;
+	height: 400px;
+}
+.pilares{
+	margin-top: 80px;
+}
+.pilares hr{
+	margin: 20px;
+}
+/*pilares fin*/
+/*instructores*/
+.instruclista{
+	list-style-type: none;
+	display: inline-block;
+	width: 24%;
+	}
+.instruclista img{
+	position: 50% 50%;
+	width:100%;
+	text-align: center;
+	}
+.instruclista p,h4{
+	width:100%;
+	}
+.frases{
+	font-size: 50px;
+	margin: 50px auto;	
+}
+.texto-grande{ font-size: 70px; }
+.absoluto p{ margin: 15px 15px 20px auto;font-size: 15px; }
+.absoluto a{ padding: 8px 30px; background: #020E1E; }
