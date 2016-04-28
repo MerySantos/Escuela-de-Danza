@@ -15,12 +15,14 @@
 }
 .bg-textura{
     background-image: url("../img/textura_2.jpg");
-    height: 420px;
+    height: 350px;
 }
 
 .texto-grande{ font-size: 70px; }
-.absoluto p{ margin: 15px 15px 20px auto;font-size: 15px; }
-.absoluto a{ padding: 8px 30px; background: #020E1E; }
+.absoluto p{ margin: 15px 15px 40px auto;font-size: 15px;}
+.absoluto a{ padding: 10px 50px; background: #C4C6C3; font-size: 15px;color:#192951;
+	border-radius: 20px;font-weight: bold; }
+.absoluto a:hover{border: 2px solid #192951;}
 
 /*Oferta de clases*/
 .clases p{font-size: 25px; margin: 70px 23% auto;}
